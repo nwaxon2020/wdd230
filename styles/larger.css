@@ -1,0 +1,40 @@
+@media (min-width: 700px) {
+    body {
+        width: 1400px;
+        margin: 0px auto;
+    }
+
+    header img {
+        border-radius: 1rem;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+        margin: 1rem;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px auto;
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    main #card {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .card {
+        border-radius: 1rem;
+        border: 2px solid #999;
+        box-shadow: 0px 0px 10px rgba(2, 2, 2, 6);
+        margin: 1.5rem;
+        overflow: hidden;
+    }
+
+    .card .card ul {
+        padding: 1.5rem;
+    }
+
+
+}
