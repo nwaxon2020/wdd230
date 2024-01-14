@@ -1,0 +1,77 @@
+body {
+    width: 960px;
+    margin: 0px auto;
+    padding: 4rem;
+    text-align: center;
+}
+
+body h2 {
+    color: #344e41;
+}
+
+header {
+    background-color: #dad7cd;
+    color: #344e41;
+    padding: 1.5rem;
+}
+
+#purpose {
+    color: #344e41;
+}
+
+#faq h4,
+span {
+    font-weight: bold;
+    color: #344e41;
+    text-align: left;
+}
+
+.colors {
+    margin: 0px auto;
+}
+
+.colors tr th {
+    padding: 0px 4rem;
+    text-align: center;
+    background-color: #9999;
+}
+
+.colors .primary {
+    background-color: #dad7cd;
+    padding: 1rem;
+}
+
+.colors .secondary {
+    background-color: #a3b18a;
+}
+
+.colors .accent1 {
+    background-color: #588157;
+}
+
+.colors .accent2 {
+    background-color: #3a5a40;
+}
+
+.colors .accent3 {
+    background-color: #344e41;
+}
+
+#navigations nav {
+    background-color: #dad7cd;
+    color: #344e41;
+    padding: 1rem;
+}
+
+#navigations a {
+    margin: 2rem;
+    text-decoration: none;
+    color: #588157;
+    font-weight: bold;
+}
+
+#navigations a:hover {
+    color: #344e41;
+    font-weight: bolder;
+    text-decoration: underline;
+}
