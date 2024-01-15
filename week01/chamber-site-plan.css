@@ -75,3 +75,7 @@ span {
     font-weight: bolder;
     text-decoration: underline;
 }
+
+#wireframes img {
+    width: 600px;
+}
