@@ -18,7 +18,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap">
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -36,12 +36,16 @@
         <span>Nwachukwu Ogbonnaya Prince</span>
     </header>
     <nav>
-        <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="#">Form</a></li>
-        </ul>
+        <button id="hambug">=</button>
+        <div id="navigation">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>
+        </div>
+
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
@@ -76,6 +80,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>

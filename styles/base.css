@@ -24,9 +24,29 @@ header span {
     font-size: 2rem;
 }
 
-nav {
+nav #navigation {
     background-color: #000;
     margin: 0px;
+    width: 20rem;
+    display: none;
+}
+
+nav #navigation.open {
+    display: block;
+}
+
+nav #hambug {
+    display: block;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 1rem 1.5rem;
+    content: "x";
+}
+
+nav #hambug.open {
+    content: "x";
+    color: #000;
 }
 
 nav ul {
@@ -59,6 +79,7 @@ nav li:hover {
 
 h1 {
     text-align: center;
+    padding-left: 2rem;
 }
 
 .card {

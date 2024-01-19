@@ -10,12 +10,25 @@
         margin: 1rem;
     }
 
+    nav #navigation {
+        width: auto;
+        display: block;
+    }
+
+    nav #hambug {
+        display: none;
+    }
+
     nav ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin: 0px auto;
         list-style: none;
+        padding-left: 0px;
+    }
+
+    h1 {
         padding-left: 0px;
     }
 
