@@ -29,6 +29,7 @@ nav #navigation {
     margin: 0px;
     width: 20rem;
     display: none;
+    position: relative;
 }
 
 nav #navigation.open {
@@ -42,11 +43,6 @@ nav #hambug {
     margin-left: 1rem;
     padding: 1rem 1.5rem;
     content: "x";
-}
-
-nav #hambug.open {
-    content: "x";
-    color: #000;
 }
 
 nav ul {
@@ -123,4 +119,55 @@ footer {
     color: #fff;
     padding: 1rem;
     margin-bottom: 1rem;
+}
+
+#dark-mode {
+    position: absolute;
+    right: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1remem;
+    border-radius: 1rem;
+    font-weight: bolder;
+
+    cursor: pointer;
+}
+
+#dark-mode i {
+    font-size: 1.5em;
+}
+
+body.dark {
+    background-color: #000;
+    color: #f7e1d7;
+
+    h2 {
+        color: #ee9b00;
+    }
+
+    #navigation {
+        background-color: #edf2f4;
+        color: #22223b;
+    }
+
+    nav li:hover {
+        background-color: rgba(8, 0, 0, 0.63);
+    }
+
+    nav a {
+        color: #000;
+        font-weight: bolder;
+    }
+
+    nav .active {
+        background-color: #ee9b00;
+    }
+
+    a {
+        color: #76a9c2;
+    }
+
+    #dark-mode {
+        color: #000;
+        background-color: #f7e1d7;
+    }
 }

@@ -48,4 +48,9 @@
     .card .card ul {
         padding: 1.5rem;
     }
+
+    #dark-mode {
+        right: 15rem;
+        cursor: pointer;
+    }
 }
