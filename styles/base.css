@@ -128,12 +128,12 @@ footer {
     margin-left: 1remem;
     border-radius: 1rem;
     font-weight: bolder;
-
+    border: 0px;
     cursor: pointer;
 }
 
 #dark-mode i {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 body.dark {
@@ -167,7 +167,7 @@ body.dark {
     }
 
     #dark-mode {
-        color: #000;
-        background-color: #f7e1d7;
+        color: #fff;
+        background-color: #000;
     }
 }
