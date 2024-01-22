@@ -3,41 +3,45 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 1rem;
-    background-color: #dad7cd;
-    padding: 7rem 0px;
-    padding-bottom: 0px;
-}
+
 
 #nav-main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    position: absolute;
     background-color: #a3b18a;
-    width: 100%;
     padding: 0.5rem 4em;
+    display: none;
 }
 
 #nav-main ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 #nav-main ul li {
-    padding: 0px 5rem;
+    padding: 10px;
 }
 
 #nav-main ul li a {
     text-decoration: none;
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #111;
+}
+
+#nav-main i {
+    font-size: 24px;
+    color: red;
+}
+
+#menu {
+    background-color: #dad7cd;
+    padding: 1rem;
+}
+
+#menu i {
+
+    color: #111;
+    font-size: 24px;
 }
 
 #nav-main ul li a:hover,
@@ -45,8 +49,173 @@ header {
     opacity: 0.6;
 }
 
-main {
-    height: 100vh;
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #dad7cd;
+
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin-right: 20px;
+}
+
+#hero #call-to-action {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    padding: 1rem;
+    background-color: rgb(44, 34, 34, 0.5);
+    text-align: center;
+    border-radius: 1rem;
+    width: 50%;
+    z-index: 2;
+    justify-self: center;
+    align-self: self-end;
+    margin-bottom: 2%;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#hero #call-to-action a {
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid #111;
+    text-decoration: none;
+    background-color: #03045e;
+    color: #fff;
+}
+
+#hero #call-to-action a:hover {
+    background-color: #70e000;
+    border: 0px;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.events section {
+    margin: 0px auto;
+    width: 80%;
+    height: 400px;
+    padding-top: -5px;
+
+}
+
+.section-head {
+    font-size: 2em;
+    color: #344e41;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #dad7cd;
+    margin: 0px auto;
+    padding: 2rem;
+}
+
+.events h2 {
+    font-weight: bolder;
+    color: #344e41;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.events section img {
+    width: 100%;
+    height: 70%;
+}
+
+.events section p {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.events section img:hover {
+    transition: 0.5s ease-in;
+    transform: scale(1.03);
+}
+
+.weather-card {
+    margin: 5rem 0px;
+    text-align: center;
+    background-color: #a9ccbb;
+    padding: 3.5rem;
+    background-image: url(../images/weather-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.weather-card h2 {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #000;
+}
+
+.weather-card p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: -10px;
+}
+
+.videos {
+    background: #344e41;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem .5rem;
+    justify-content: space-around;
+}
+
+.videos section {
+    padding: 0.5rem
+}
+
+#ads {
+    background-color: #344e41;
+}
+
+#ads h2 {
+    color: #fff;
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+
+.short-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.short-cards section {
+    margin: 5px;
+    border: 2px solid #999;
+    padding: 5px;
+    border-top-right-radius: 5rem;
+    border-top-left-radius: 5rem;
+    overflow: hidden;
+
+}
+
+.short-cards section img {
+    width: 200px;
+    height: 300px;
+    border-top-right-radius: 5rem;
+    border-top-left-radius: 5rem;
 }
 
 footer {
@@ -62,10 +231,8 @@ footer p {
 }
 
 footer #footer-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 2rem;
+    display: block;
+    text-align: center;
 }
 
 footer #footer-nav ul {

@@ -1,0 +1,117 @@
+@media (min-width: 700px) {
+    header {
+        padding: 5rem 0px;
+        padding-bottom: 0px;
+        background-color: #dad7cd;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #nav-main {
+        width: 92.9%;
+        display: block;
+    }
+
+    #nav-main i {
+        color: #111;
+        font-size: 36px;
+    }
+
+    #nav-main ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+        font-size: 1.2rem;
+    }
+
+    #nav-main ul li {
+        padding: 0px;
+    }
+
+    #hero #call-to-action {
+        width: 40%;
+        margin-bottom: 6%;
+        font-size: 1.3rem;
+    }
+
+    .events {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 5rem;
+    }
+
+    .section-head {
+        font-size: 4rem;
+    }
+
+    .events section {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .events section p {
+        width: 100%;
+        padding-top: -10px;
+    }
+
+    .events section img {
+        width: 100%;
+        height: 100%;
+        justify-self: center;
+    }
+
+    #conclude-text {
+        width: 80%;
+    }
+
+    .weather-card h2 {
+        font-size: 3.4rem;
+    }
+
+    .weather-card p {
+        font-size: 1.7rem;
+    }
+
+    .weather-card {
+        padding: 5rem;
+    }
+
+    .videos {
+        flex-wrap: nowrap;
+    }
+
+    .short-cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    #ads h2 {
+
+        font-size: 2rem;
+    }
+
+    .short-cards section {
+        padding: 5px;
+    }
+
+    .short-cards section img {
+        width: 100%;
+    }
+
+
+    footer #footer-nav {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        justify-items: center;
+    }
+
+    #footer-nav ul {
+        padding-left: 0px;
+    }
+
+
+}
