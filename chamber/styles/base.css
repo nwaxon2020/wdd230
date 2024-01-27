@@ -3,8 +3,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 #nav-main {
     position: absolute;
     background-color: #a3b18a;
@@ -216,6 +214,17 @@ body {
     height: 300px;
     border-top-right-radius: 5rem;
     border-top-left-radius: 5rem;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 footer {

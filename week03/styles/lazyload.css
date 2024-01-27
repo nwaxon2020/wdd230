@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+main {
+    width: 400px;
+    background-color: #344e41;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+main img {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
