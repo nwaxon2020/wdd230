@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    position: relative;
+}
+
 #nav-main {
     position: absolute;
     background-color: #a3b18a;

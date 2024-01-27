@@ -61,6 +61,6 @@
     #dark-mode {
         right: 15rem;
         cursor: pointer;
-        margin-top: -150px;
+        margin-top: 0px;
     }
 }

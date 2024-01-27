@@ -44,6 +44,7 @@ nav #hambug {
     margin-left: 1rem;
     padding: 1rem 1.5rem;
     content: "x";
+    z-index: 2;
 }
 
 nav ul {
@@ -153,7 +154,7 @@ footer {
 #dark-mode {
     position: absolute;
     right: 1rem;
-    margin-top: -50px;
+    margin-top: 100px;
     border-radius: 1rem;
     font-weight: bolder;
     border: 0px;
