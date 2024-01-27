@@ -25,6 +25,7 @@ header span {
 }
 
 nav #navigation {
+    position: relative;
     background-color: #000;
     margin: 0px;
     width: 20rem;
@@ -73,6 +74,30 @@ nav li:hover {
     background-color: rgba(134, 100, 100, 0.4);
 }
 
+#hero-img {
+    position: relative;
+}
+
+#hero-img picture img {
+    width: 100%;
+    height: auto;
+}
+
+#hero-img #hero-label {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    padding: 0.5% 2%;
+    border: 2px solid #000;
+    border-radius: 3rem;
+    background-color: rgb(04, 30, 46, 0.6);
+}
+
+#hero-img #hero-label p {
+    font-weight: bolder;
+    color: #fff;
+}
+
 h1 {
     text-align: center;
     padding-left: 2rem;
@@ -111,6 +136,10 @@ p {
     text-align: center;
 }
 
+#iframe {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     background-color: #023047;
@@ -124,8 +153,7 @@ footer {
 #dark-mode {
     position: absolute;
     right: 1rem;
-    margin-top: 1.5rem;
-    margin-left: 1remem;
+    margin-top: -50px;
     border-radius: 1rem;
     font-weight: bolder;
     border: 0px;

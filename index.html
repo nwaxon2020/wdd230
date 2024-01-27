@@ -36,7 +36,7 @@
 
 <body>
     <header>
-        <img src="images/my-profile-picture.jpg" width="88" height="100" alt=" Prince Profile Picture">
+        <img src="images/my-profile-picture.webp" loading="lazy" width="88" height="100" alt=" Prince Profile Picture">
         <span>Nwachukwu Ogbonnaya Prince</span>
     </header>
     <nav>
@@ -54,6 +54,16 @@
 
     </nav>
     <main>
+        <div id="hero-img">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+                <img src="images/hero-large.webp" alt="table setting" loading="lazy" width="1500" height="750">
+            </picture>
+            <div id="hero-label">
+                <p>Ghana Accra Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <hr>
         <div id="card">
@@ -81,10 +91,16 @@
                 <h2>Information</h2>
                 <p>Lagos Nigeria</p>
                 <p>30 degree F</p>
-                <p>Page visit: 00</p>
+                <p class="visit">Page visit: 00</p>
             </section>
         </div>
     </main>
+    <div id="iframe">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63382.22034327663!2d3.6066894334048905!3d6.843909740105221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bd8d0e0df8253%3A0x61d9c04dd6972c02!2sSagamu%20121102%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1706375428455!5m2!1sen!2sng"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
         <p>&copy;<span id="current-year"></span> Nwachukwu Ogbonnaya Prince, Nigeria</p>
         <p id="lastModified"></p>
