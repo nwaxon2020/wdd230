@@ -231,6 +231,99 @@ header {
     }
 }
 
+/* //////////second site CSS /////////////*/
+#contain-side {
+    width: 80%;
+    margin: 0 auto;
+    background: #344e41;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 40%;
+    padding: 20px 5px;
+    background-color: #a9ccbb;
+    border-right: 5px solid gold;
+    text-align: center;
+}
+
+.sidebar #info {
+    border: 3px solid #fff;
+    background: rgb(44, 34, 34, 0.5);
+    padding: 1rem;
+    margin: 5px auto;
+}
+
+.sidebar h2 {
+    font-weight: bolder;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+#info p {
+    font-weight: bolder;
+    color: #111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+
+}
+
+#visits,
+#last-visit {
+    color: gold;
+}
+
+.sidebar #demographic {
+    border: 3px solid #fff;
+    background: rgb(44, 34, 34, 0.5);
+    padding: 1rem;
+    margin: 5px auto;
+}
+
+#demographic img {
+    width: 100%;
+}
+
+#demographic p {
+    color: #fff;
+}
+
+.sidebar #calendar {
+    margin: 5px auto;
+    border: 3px solid #fff;
+    background: rgb(44, 34, 34, 0.5);
+    padding: 5px 5px;
+}
+
+#calendar iframe {
+    width: 100%;
+}
+
+.sidebar-img {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.sidebar-img img {
+    width: 100%;
+    height: 350px;
+    border-radius: 50%;
+    margin: 10px auto;
+    animation: fade 10s;
+}
+
+.sidebar-img img:hover {
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+
+
+/* //////////////////////////////////////// */
 footer {
     background-color: #dad7cd;
     border-top: 5px solid #a3b18a;

@@ -102,7 +102,17 @@
         width: 100%;
     }
 
+    /* /////second page///// */
+    #contain-side {
+        width: 60%;
+        margin-top: 5.5rem;
+    }
 
+    .sidebar {
+        width: 25%;
+    }
+
+    /* //////////////////// */
     footer #footer-nav {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;

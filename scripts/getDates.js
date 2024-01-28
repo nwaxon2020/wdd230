@@ -20,3 +20,4 @@ if (numberVisit !== 0) {
 numberVisit++;
 
 localStorage.setItem("numVisited", numberVisit);
+
