@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0px auto;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -8,10 +8,15 @@ header {
 }
 
 #nav-main {
+    display: none;
     position: absolute;
     background-color: #a3b18a;
     padding: 0.5rem 4em;
-    display: none;
+    margin: 0 auto;
+}
+
+#nav-main.nav-m {
+    display: block;
 }
 
 #nav-main ul {
@@ -237,15 +242,22 @@ header {
     margin: 0 auto;
     background: #344e41;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border: 5px solid gold;
 }
 
 .sidebar {
-    width: 40%;
+    width: 90%;
     padding: 20px 5px;
     background-color: #a9ccbb;
-    border-right: 5px solid gold;
     text-align: center;
+    margin: 0 auto;
+}
+
+.sidebar #info:hover,
+#demographic:hover,
+#calendar:hover {
+    cursor: pointer;
 }
 
 .sidebar #info {
@@ -308,17 +320,14 @@ header {
 }
 
 .sidebar-img img {
-    width: 100%;
-    height: 350px;
-    border-radius: 50%;
+    width: 90%;
+    height: auto;
     margin: 10px auto;
     animation: fade 10s;
 }
 
 .sidebar-img img:hover {
-    transition: 0.5s ease-in;
-    transform: scale(1.1);
-    z-index: 2;
+    cursor: pointer;
 }
 
 
@@ -346,10 +355,29 @@ footer #footer-nav ul {
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 footer #footer-nav ul li {
-    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #344e41;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#footer-nav ul li a {
+    color: #344e41;
+}
+
+#footer-nav ul li:hover a {
+    opacity: 0.7;
+
+}
+
+footer #footer-nav ul .fbook {
+    width: 30px;
+    border-radius: 2px solid #000;
 }
 
 #lastModified {
