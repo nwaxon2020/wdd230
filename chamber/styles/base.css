@@ -17,6 +17,7 @@ header {
 
 #nav-main.nav-m {
     display: block;
+    z-index: 3;
 }
 
 #nav-main ul {

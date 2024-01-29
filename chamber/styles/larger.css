@@ -6,6 +6,10 @@
         background-color: #dad7cd;
     }
 
+    #top {
+        width: 100%;
+    }
+
     #menu {
         display: none;
     }
