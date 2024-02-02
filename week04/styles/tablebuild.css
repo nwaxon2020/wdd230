@@ -1,0 +1,45 @@
+:root {
+    --bord: 1px solid #999;
+    --fsize: 2rem;
+    --hsize: 3rem;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+}
+
+.b-dark {
+    background-color: black;
+    color: #fff;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+}
+
+.sub-head {
+    background-color: #bbb;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.sub-head :nth-child(1) {
+    margin: 0px;
+    background-color: black;
+    padding: 2rem;
+}
+
+.grey {
+    background-color: #bbb;
+}
+
+.feature th {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+table {
+    margin: 150px auto;
+    border: 2px solid #999;
+    text-align: center;
+}
