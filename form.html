@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nwachukwu Ogbonnaya Prince - WDD 230 - Web Frontend Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="WDD 230 - Web Frontend Development
+    Nwachukwu Ogbonnaya Prince course assignment portal">
+    <meta name="author" content="Nwachukwu Ogbonnaya Prince">
+
+    <meta property="og:title" content="Nwachukwu Ogbonnaya Prince - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="About Me">
+    <meta property="og:image"
+        content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bloomberg.com%2Fnews%2Farticles%2F2022-05-18%2Fplastic-fragments-pollute-drinking-water-in-west-african-city&psig=AOvVaw1kdrjX1nREmHb76CqHdzWj&ust=1705659854530000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCX8LDc5oMDFQAAAAAdAAAAABAD">
+    <meta property="og:url" content="https://nwaxon2020.github.io/wdd230/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <!--The below will help in reducing size of "normalizer"-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+
+    <link rel="icon" href="images/favicon2.png">
+
+    <!--link used to get dark mode icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/my-profile-picture.webp" loading="lazy" width="88" height="100" alt=" Prince Profile Picture">
+        <span>Nwachukwu Ogbonnaya Prince</span>
+
+        <button id="dark-mode" title="Dark-Mode"><i class="fa fa-adjust"></i></button>
+    </header>
+    <nav>
+        <button id="hambug">=</button>
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li class="active"><a href="form.html">Form</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+
+        <form method="get" action="record.html">
+            <h1>Simple Form</h1>
+            <fieldset>
+                <legend>User Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" id="fname" required></label>
+                <hr>
+
+                <label class="top">Password* <input type="password" name="password" id="password1" required
+                        pattern="[A-Za-z0-9]{8,}" title="At least 8 Characters Long, Alpha-Numeric"></label>
+                <label class="top">Comfirm Password* <input type="password" name="comfirmpassword" id="password2"
+                        required pattern="[A-Za-z0-9]{8,}" title="At least 8 Characters Long, Alpha-Numeric"></label>
+
+                <div id="error-message">
+                    <p>Password don't match</p>
+                </div>
+                <hr>
+
+                <label class="top">Email* <input type="email" name="email" id="email" required
+                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+                <label class="sbs">Range
+                    <div id="r-value">0</div>
+                    <input type="range" name="range" id="range" min="0" max="10" value="0" list="range-v">
+                    <datalist id="range-v">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </datalist>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Information Done" class="submitBtn">
+
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="current-year"></span> Nwachukwu Ogbonnaya Prince, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/formvalidation.js"></script>
+</body>
+
+</html>
