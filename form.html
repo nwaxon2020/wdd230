@@ -74,21 +74,49 @@
 
                 <label class="top">Email* <input type="email" name="email" id="email" required
                         pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
-                <label class="sbs">Range
-                    <div id="r-value">0</div>
-                    <input type="range" name="range" id="range" min="0" max="10" value="0" list="range-v">
-                    <datalist id="range-v">
+
+
+                <!-- <label for="r">Range
+                    <div id="rangevalue">0</div>
+                    <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="5">5</option>
+                        <option value="0">6</option>
+                        <option value="1">7</option>
+                        <option value="2">8</option>
+                        <option value="3">9</option>
+                        <option value="4">10</option>
                     </datalist>
+                </label> -->
+
+                <label id="l-range">
+                    <div id="range-v">0</div>
+                    Range <input type="range" id="range" name="range" min="0" max="10" step="1" value="0"
+                        list="range-vals">
+
+                    <datalist id="range-vals">
+                        <option value="1">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+
                 </label>
             </fieldset>
 
-            <input type="submit" value="Information Done" class="submitBtn">
+            <input type="submit" value="Form Complited" class="submitBtn">
 
         </form>
 

@@ -19,3 +19,12 @@ password2.addEventListener("focusout", () => {
         err.style.display = "none";
     }
 })
+
+// ----------  Range Script----------------
+const range = document.querySelector("#range-v");
+const rangeValue = document.querySelector("#range");
+
+rangeValue.addEventListener("change", () => {
+    range.textContent = rangeValue.value;
+})
+

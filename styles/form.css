@@ -32,7 +32,8 @@ fieldset {
 
 form fieldset .top,
 form fieldset .top input,
-form label.sbs {
+form label.sbs,
+#l-range {
     -webkit-appearance: none;
     display: var(--display);
     padding: 0.75rem 5%;
@@ -76,7 +77,7 @@ form label.sbs input {
 
 form .submitBtn {
     background-color: var(--col);
-    font: bolder;
+    font-weight: bolder;
     color: #fff;
     border: none;
     padding: 0.8rem 1.5rem;
@@ -90,16 +91,27 @@ form .submitBtn {
     height: 200px;
 }
 
-#r-value {
-    font-size: 2rem;
-    color: #023047;
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#range {
+    width: 250px;
 }
 
-#range-v option {
-    flex: 1 1 auto;
+#range-v {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--col);
+    padding: 1.5rem 0 0 0;
 }
+
+#range-vals {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    padding-left: 60px;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
 
 /* ----Error Message------ */
 #error-message {
