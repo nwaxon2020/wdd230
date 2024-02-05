@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAGAMU CHEMBER OF COMMERCE</title>
+    <meta name="description" content="chamber Of Comerce For Sagamu  Business Unit,">
+    <meta name="Founder" content="Prince O. Nwachukwu">
+
+    <link rel="icon" href="../images/favicon2.png">
+
+    <meta property="og:title" content="SAGAMU CHEMBER OF COMMERCE">
+    <meta property="og:type" content="Business group">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="#">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!--Home button link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="top"></div>
+        <div id="menu"><i class="fa fa-bars"></i></div>
+        <nav id="nav-main">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="discover.html">Blog</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="join.html">JOIN</a></li>
+                <li><a href="#">Webinar</a></li>
+                <li><a href="../week01/chamber-site-plan.html">Site-Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="fm">
+        <form method="get" action="thankyou.html">
+
+            <h2>Join us</h2>
+
+            <fieldset>
+                <legend>User Application</legend>
+                <label class="tp">First name* <input type="text" name="fnam" id="fname" required></label>
+                <label class="tp">Last name* <input type="text" name="fnam" id="fname" required></label>
+                <label class="tp">Title <input type="text" name="title" id="title" pattern="[a-zA-z\s-]{7,}"></label>
+                <label class="tp">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="tp">Phone* <input type="tel" name="phone" id="phone" required pattern="[0-9]{6,}"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business</legend>
+                <label class="tp">Business/organization's name* <input type="text" name="bname" id="bname"
+                        required></label>
+
+                <div>Membership level</div>
+
+                <label class="sb"><input type="radio" name="m-levels" value="NP">NP Membership</label>
+                <label class="sb"><input type="radio" name="m-levels" value="Bronze">Bronze Membership</label>
+                <label class="sb"><input type="radio" name="m-levels" value="Silver">Silver Membership</label>
+                <label class="sb"><input type="radio" name="m-levels" value="Gold">Gold Membership</label>
+
+
+
+                <label class="tp">Description <textarea name="desc" id="desc" rows="10"></textarea></label>
+                <label class="sb time">Time: <input type="hidden" name="time" id="time"></label>
+            </fieldset>
+
+            <input type="submit" value="Register Me" class="submitbtn">
+
+        </form>
+        <div class="benefits-section">
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li>Special events</li>
+                <li>Training sessions</li>
+                <li>Advertising perks</li>
+                <li>Event discounts</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-nav">
+            <p><span>Sagamu Chamber Of Commerce</span>&reg; <br>Giving you the best service for a reliant business</p>
+            <p id="conclude-text">
+                "A quality chamber website combines seamless navigation, informative content, and interactive elements.
+                Its responsive design ensures optimal viewing across devices, enhancing accessibility and user
+                engagement for a positive online experience."
+                <br><a href="#">Join Us</a>
+            </p>
+            <nav>
+                <Ul>
+                    <li class="fbook"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                    <li class="twiter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="yahoo"><a href="mailto:princenwachukwu308@yahoo.com" target="_blank"><i
+                                class="fa fa-yahoo"></i></a></i></li>
+                </Ul>
+            </nav>
+        </div>
+        <p id="lastModified">hu,lullt</p>
+    </footer>
+    <script src="scripts/chamber_hamburger.js"></script>
+</body>
+
+</html>

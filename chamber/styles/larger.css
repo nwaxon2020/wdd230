@@ -150,4 +150,27 @@
     }
 
 
+
+    /*-------------Form CSS----------------*/
+    #fm {
+        margin-top: 6rem;
+    }
+
+    .benefits-section {
+        display: block;
+    }
+
+    .benefits-section h2,
+    form>h2 {
+        font-size: 1.7rem;
+        color: #344e41;
+        text-decoration: underline;
+    }
+
+    .benefits-section li {
+        font-size: 1.2rem;
+        color: #344e41;
+        padding: 0.5rem;
+    }
+
 }

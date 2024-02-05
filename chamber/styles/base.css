@@ -387,3 +387,100 @@ footer #footer-nav ul .fbook {
     width: 100%;
     text-align: center;
 }
+
+/*-----------------Form CSS-------------*/
+#fm {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+
+}
+
+.benefits-section {
+    display: none;
+}
+
+#fm form {
+    width: 100%;
+    max-width: 50rem;
+}
+
+form legend {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+form>h2 {
+    font-size: 1.7rem;
+    color: #344e41;
+    text-decoration: underline;
+    margin-left: 2rem;
+}
+
+.tp,
+.tp input,
+.sb {
+    display: block;
+    padding: 0.75rem 5%;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(40, 40, 204);
+}
+
+.tp input {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    margin: 5px;
+}
+
+div {
+    padding: 1.2rem 0 0 5%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(40, 40, 204);
+}
+
+.sb {
+    font-size: 1rem;
+    color: #000;
+}
+
+input:required {
+    border-left: 6px solid red;
+}
+
+input:required:valid {
+    border-left: 6px solid green;
+}
+
+#desc {
+    vertical-align: top;
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+}
+
+.time {
+    padding: 1.2rem 0 0 5%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(40, 40, 204);
+}
+
+.submitbtn {
+    margin: 1rem 20px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: #344e41;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+}
+
+.submitbtn:hover {
+    background-color: green;
+}
