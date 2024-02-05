@@ -114,7 +114,7 @@ header {
     margin: 0px auto;
     width: 80%;
     height: 400px;
-    padding-top: -5px;
+    padding-top: 0px;
 
 }
 
@@ -376,10 +376,6 @@ footer #footer-nav ul li {
 
 }
 
-footer #footer-nav ul .fbook {
-    width: 30px;
-    border-radius: 2px solid #000;
-}
 
 #lastModified {
     display: inline-block;
@@ -406,13 +402,13 @@ footer #footer-nav ul .fbook {
     max-width: 50rem;
 }
 
-form legend {
+#fm form legend {
     padding: 1.5rem 0;
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
-form>h2 {
+#fm form>h2 {
     font-size: 1.7rem;
     color: #344e41;
     text-decoration: underline;
@@ -437,7 +433,7 @@ form>h2 {
     margin: 5px;
 }
 
-div {
+#fm div {
     padding: 1.2rem 0 0 5%;
     font-size: 1.2rem;
     font-weight: bold;
@@ -449,11 +445,11 @@ div {
     color: #000;
 }
 
-input:required {
+#fm input:required {
     border-left: 6px solid red;
 }
 
-input:required:valid {
+#fm input:required:valid {
     border-left: 6px solid green;
 }
 
