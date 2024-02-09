@@ -12,6 +12,7 @@ h1 {
 div section {
     border: 2px solid navy;
     border-radius: 1rem;
+    width: 95%;
     max-width: 30rem;
     padding: 0.5rem;
     margin: 2rem auto;
