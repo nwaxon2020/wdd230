@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+h2,
+h1 {
+    color: navy;
+    font-weight: bolder;
+    text-shadow: 0 0 15px #777;
+}
+
+div section {
+    border: 2px solid navy;
+    border-radius: 1rem;
+    max-width: 30rem;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    background-color: #999;
+}
+
+section img {
+    box-shadow: 0 0 15px #000;
+}
