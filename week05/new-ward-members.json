@@ -1,0 +1,28 @@
+{
+    "familyName": "Nwachukwu Family",
+    "movedDate": "12-10-2020",
+    "numberOfPeople": 4,
+    "visitedByBishop": true,
+    "individualFamilyMembers": [
+        {
+            "name": "Prince Nwachukwu",
+            "gender": "Male",
+            "birthDate": "02-02-1992"
+        },
+        {
+            "name": "Veronica Nwachukwu",
+            "gender": "Female",
+            "birthDate": "07-09-1992"
+        },
+        {
+            "name": "Prince-Alma Nwachukwu",
+            "gender": "Male",
+            "birthDate": "29-06-2018"
+        },
+        {
+            "name": "Hanson Nwachukwu",
+            "gender": "Male",
+            "birthDate": "07-7-2020"
+        }
+    ]
+}
