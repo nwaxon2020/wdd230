@@ -28,3 +28,4 @@ rangeValue.addEventListener("change", () => {
     range.textContent = rangeValue.value;
 })
 
+

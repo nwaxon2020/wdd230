@@ -1,0 +1,93 @@
+{
+    "weeks": [
+        {
+            "week": "Week1",
+            "links": [
+                {
+                    "url": "#",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "#",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://codepen.io/Prince-nwachukwu/pen/abMWZVg",
+                    "title": "Codpen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM"
+                }
+            ]
+        },
+        {
+            "week": "Week3",
+            "links": [
+                {
+                    "url": "week03/images/Landscape.webp",
+                    "title": "webp"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Reponsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "BOM LOCAL STORAGE"
+                }
+            ]
+        },
+        {
+            "week": "Week4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Prince-nwachukwu/pen/rNRdgRQ",
+                    "title": "CodePen-PsuedoClasses/root"
+                },
+                {
+                    "url": "week04/images/webweek04assignment.png",
+                    "title": "CSS Combinator Assignment"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "week04/form-start/index.html",
+                    "title": "Form Start"
+                }
+            ]
+        },
+        {
+            "week": "Week5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Prince-nwachukwu/pen/ExMeebq",
+                    "title": "CodePen-Psuedo Element"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "Jason-File"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch LDS Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather Update"
+                }
+            ]
+        }
+    ]
+}

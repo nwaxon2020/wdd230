@@ -116,6 +116,24 @@ h1 {
     padding: 0.5rem;
 }
 
+figure {
+    text-align: center;
+}
+
+figure p {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+figure img {
+    width: 5rem;
+}
+
+figure figcaption {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
 .card .card ul {
     padding-left: 0px;
     padding: 1.5rem;
