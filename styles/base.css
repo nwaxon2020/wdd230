@@ -111,6 +111,11 @@ h1 {
     overflow: hidden;
 }
 
+.card li a {
+    display: flex;
+    padding: 0.5rem;
+}
+
 .card .card ul {
     padding-left: 0px;
     padding: 1.5rem;

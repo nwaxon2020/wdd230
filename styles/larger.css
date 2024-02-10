@@ -63,4 +63,9 @@
         cursor: pointer;
         margin-top: 0px;
     }
+
+    .card li a {
+        display: inline-block;
+        padding: 0.3rem;
+    }
 }
