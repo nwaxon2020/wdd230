@@ -487,13 +487,19 @@ footer #footer-nav ul li {
 #member #member-cards {
     padding-top: 10rem;
     display: flex;
+    flex-wrap: wrap;
     flex: 1 1 auto;
     justify-content: space-around;
 }
 
 #member #member-cards div {
     border: 3px solid black;
-    width: 20rem;
+    width: 85%;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    max-width: 20rem;
     text-align: center;
 }
 
