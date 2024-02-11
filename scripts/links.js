@@ -28,7 +28,8 @@ function displayLinks(weeks) {
         week.links.forEach(link => { // Iterate over 'links' array inside each 'week'
             let a = document.createElement("a");
             a.textContent = link.title;
-            a.href = link.url; // Set href attribute to link URL
+            a.setAttribute("href", link.url);// Set href attribute to link URL
+            a.setAttribute("target", "_blank");
             li.appendChild(a);
         });
         ul.appendChild(li);
