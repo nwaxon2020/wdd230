@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "De-Vera Phones",
+            "address": "16, Surulere Lagos State Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/wdd130/phonesite/index.html",
+            "image": "https://nwaxon2020.github.io/wdd130/phonesite/image/phone_site_hero.JPG",
+            "memblevel": "Gold",
+            "description": "Phone gadgets"
+        },
+        {
+            "name": "Waste NIG Limited",
+            "address": "17, Augra Ogun State Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/cse121b/w04-task.html",
+            "image": "https://nwaxon2020.github.io/wdd130/waste_site/waste_site_images/HERO.jpg",
+            "memblevel": "Bronze",
+            "description": "Wast bins and environment control"
+        },
+        {
+            "name": "Rift Water Falls",
+            "address": "Parks and Garden, Ibadan OYO State, Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/wdd130/wwr/blog.html",
+            "image": "https://nwaxon2020.github.io/wdd130/wwr/images/blog_hero.jpg",
+            "memblevel": "Bronze",
+            "description": "Torrism and Wild life"
+        },
+        {
+            "name": "Phonz Delight",
+            "address": "Bank Road Onista Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/Phone_website/",
+            "image": "https://nwaxon2020.github.io/Phone_website/images/phone_office.jpg",
+            "memblevel": "NP",
+            "description": "Phone company"
+        },
+        {
+            "name": "Cart Shopping",
+            "address": "7BX Aminu Plaza, Mitama, Abuja, Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/cse121b/javaScriptProject/project.html",
+            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+            "memblevel": "Silver",
+            "description": "Shopping mall"
+        },
+        {
+            "name": "Just Me",
+            "address": "16, Biggs Avenue, Lagos State Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/cse121b/w04-task.html",
+            "image": "https://nwaxon2020.github.io/cse121b/images/mypicture_javaScript.png",
+            "memblevel": "Bronze",
+            "description": "About Prince Nwachukwu"
+        },
+        {
+            "name": "Car World",
+            "address": "10, Anambara State Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/activity_direction/",
+            "image": "https://nwaxon2020.github.io/activity_direction/imageee/bmwhero.jpg",
+            "memblevel": "Silver",
+            "description": "Cars Dealer"
+        }
+    ]
+}
