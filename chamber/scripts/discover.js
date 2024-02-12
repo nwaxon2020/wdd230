@@ -1,3 +1,4 @@
+
 const visit = document.querySelector("#visits");
 
 let numberVisit = Number(window.localStorage.getItem("numVisited")) || 0;
@@ -15,16 +16,14 @@ localStorage.setItem("numVisited", numberVisit);
 // Time of visit updater
 const lastVisit = document.querySelector("#last-visit");
 
-let storeLastVisit = localStorage.getItem("last-vited");
-
-let year = new Date();
-let todayCounter = year - new Date(storeLastVisit);
-const daysDifference = Math.floor(todayCounter / (1000 * 60 * 60 * 24));
+let storeLastVisit = localStorage.getItem("last-visited"); // Fixed typo here
 
 if (!storeLastVisit) {
     lastVisit.textContent = "Today";
-
 } else {
+    const lastVisitDate = new Date(storeLastVisit);
+    const todayDate = new Date();
+    const daysDifference = Math.floor((todayDate - lastVisitDate) / (1000 * 60 * 60 * 24));
 
     if (daysDifference < 1) {
         // Less than a day
@@ -33,11 +32,10 @@ if (!storeLastVisit) {
         // More than a day
         if (daysDifference > 1) {
             lastVisit.textContent = `You last visited ${daysDifference} days ago`;
-        }
-        if (daysDifference === 1) {
+        } else {
             lastVisit.textContent = `You last visited ${daysDifference} day ago`;
         }
     }
 }
 
-localStorage.setItem('last-vited', new Date().toISOString());
+localStorage.setItem('last-visited', new Date().toISOString()); // Fixed typo here
