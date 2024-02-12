@@ -630,3 +630,31 @@ a {
     width: 150px;
     height: 100px;
 }
+
+/* ======news======= */
+#formz {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.formz {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-left: 40%;
+}
+
+.user {
+    flex: 1 0 4rem;
+}
+
+.pass {
+    flex: 1 0 4rem;
+}
+
+button {
+    flex: 1 0 4rem;
+}
