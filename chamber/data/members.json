@@ -62,6 +62,33 @@
             "image": "https://nwaxon2020.github.io/activity_direction/imageee/bmwhero.jpg",
             "memblevel": "Silver",
             "description": "Cars Dealer"
+        },
+        {
+            "name": "Cart Shopping",
+            "address": "7BX Aminu Plaza, Mitama, Abuja, Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/cse121b/javaScriptProject/project.html",
+            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+            "memblevel": "Silver",
+            "description": "Shopping mall"
+        },
+        {
+            "name": "Just Me",
+            "address": "16, Biggs Avenue, Lagos State Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/cse121b/w04-task.html",
+            "image": "https://nwaxon2020.github.io/cse121b/images/mypicture_javaScript.png",
+            "memblevel": "Bronze",
+            "description": "About Prince Nwachukwu"
+        },
+        {
+            "name": "Car World",
+            "address": "10, Anambara State Nigeria",
+            "phone": "+2349-0945-1",
+            "webURL": "https://nwaxon2020.github.io/activity_direction/",
+            "image": "https://nwaxon2020.github.io/activity_direction/imageee/bmwhero.jpg",
+            "memblevel": "Silver",
+            "description": "Cars Dealer"
         }
     ]
 }

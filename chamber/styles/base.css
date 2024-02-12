@@ -482,28 +482,132 @@ footer #footer-nav ul li {
     background-color: green;
 }
 
-/* ----Member Cards------- */
 
-#member #member-cards {
-    padding-top: 10rem;
+
+
+
+/*---- Gid and List button------- */
+
+#member #button {
+    padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 auto;
-    justify-content: space-around;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: #bbb;
 }
 
-#member #member-cards div {
-    border: 3px solid black;
-    width: 85%;
+#member #button1,
+#button2 {
+    border: 1px solid #777;
+    width: 50px;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 5px 10px;
+    border-radius: 10px;
+    background-color: #d2dbc4;
+    color: #111;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+    text-justify: auto;
+    box-shadow: 0 0 15px #333;
+}
+
+#member #button1:hover,
+#button2:hover {
+    opacity: 0.8;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+/*===== grid view======= */
+#cardHold.grid-view {
+    display: block;
+}
+
+.grid-view #member-cards {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid-view #member-cards div {
+    border: 3px solid #555;
+    width: 85%;
+    padding: 0.2rem;
+    margin: 0.6rem;
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
-    max-width: 20rem;
+    max-width: 15rem;
     text-align: center;
 }
 
-#member-cards img {
+.grid-view #member-cards img {
+    width: 150px;
+    height: 100px;
+}
+
+.grid-view #member-cards p {
+    text-align: center;
+    margin-top: -5px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.grid-view #member-cards h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+/*====Member list Cards===== */
+#cardHold.list-view {
+    display: block;
+}
+
+.list-view #member-cards {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.list-view #member-cards div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    max-width: 85%;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #999;
+}
+
+.list-view #member-cards div:nth-last-child(1) {
+    border-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.list-view #member-cards div h2,
+p,
+a {
+    text-align: left;
+    font-size: 95%;
+    padding: 5px;
+}
+
+
+.list-view #member-cards img {
+    display: none;
     width: 150px;
     height: 100px;
 }
