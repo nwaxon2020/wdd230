@@ -7,6 +7,15 @@ header {
     position: relative;
 }
 
+/* active */
+.actives {
+    opacity: 0.6;
+    ;
+}
+
+/* .................... */
+
+
 #nav-main {
     display: none;
     position: absolute;
@@ -483,7 +492,17 @@ footer #footer-nav ul li {
 }
 
 
+/* weather form */
+#info section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 
+#info p {
+    text-align: center;
+}
 
 
 /*---- Gid and List button------- */

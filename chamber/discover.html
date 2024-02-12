@@ -35,8 +35,8 @@
             <ul>
                 <li><a href="index.html"><i class="fa fa-home"></i></a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="discover.html">Blog</a></li>
-                <li><a href="#">News</a></li>
+                <li class="actives"><a href="discover.html">Blog</a></li>
+                <li><a href="news.html">News</a></li>
                 <li><a href="join.html">JOIN</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="../week01/chamber-site-plan.html">Site-Plan</a></li>
@@ -46,14 +46,24 @@
 
     <main>
         <div id="contain-side">
+
             <div class="sidebar">
+
                 <div id="info">
-                    <h2>Information</h2>
-                    <p>Lagos Nigeria</p>
-                    <p>30 degree F</p>
+
+                    <section class="card weather">
+                        <h2>Information</h2>
+                        <figure>
+                            <p>Lagos Nigeria <span id="description"></span></p>
+                            <img id="icon-w"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </section>
+
                     <p>Page visit: <span id="visits">00</span></p>
                     <p>You last visited: <br><span id="last-visit"></span></p>
                 </div>
+
                 <div id="demographic">
                     <h2>Demographics</h2>
                     <img src="images/demographic.jpg" alt="Demograhpic picture">
@@ -102,6 +112,7 @@
     </footer>
     <script src="scripts/chamber_hamburger.js"></script>
     <script src="scripts/discover.js"></script>
+    <script src="../scripts/weather.js"></script>
 </body>
 
 </html>
