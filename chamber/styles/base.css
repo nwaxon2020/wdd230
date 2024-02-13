@@ -399,11 +399,18 @@ footer #footer-nav ul li {
     flex-direction: row;
     flex: 1 1 auto;
     justify-content: center;
-
 }
 
 .benefits-section {
     display: none;
+    margin-left: 20px;
+}
+
+.benefits-section img {
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.9);
+    margin: 0 auto;
 }
 
 #fm form {
