@@ -64,31 +64,31 @@
             "description": "Cars Dealer"
         },
         {
-            "name": "Cart Shopping",
-            "address": "7BX Aminu Plaza, Mitama, Abuja, Nigeria",
-            "phone": "+2349-0945-1",
-            "webURL": "https://nwaxon2020.github.io/cse121b/javaScriptProject/project.html",
-            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+            "name": "Airlinton",
+            "address": " 14th Street, North  | Suite 100 | Arlington, VA 2220",
+            "phone": "+703-525-2400",
+            "webURL": "https://www.arlingtonchamber.org/",
+            "image": "https://www.arlingtonchamber.org/uploads/8/6/6/6/86665924/stret-map_orig.png",
             "memblevel": "Silver",
-            "description": "Shopping mall"
+            "description": "strengthen businesses and the economic environment for those who work"
         },
         {
-            "name": "Just Me",
-            "address": "16, Biggs Avenue, Lagos State Nigeria",
-            "phone": "+2349-0945-1",
-            "webURL": "https://nwaxon2020.github.io/cse121b/w04-task.html",
-            "image": "https://nwaxon2020.github.io/cse121b/images/mypicture_javaScript.png",
-            "memblevel": "Bronze",
-            "description": "About Prince Nwachukwu"
+            "name": "Key west",
+            "address": "510 Greene Street, 1st Floor Key West, FL 33040",
+            "phone": "+1-800-527-8539",
+            "webURL": "https://www.keywestchamber.org/",
+            "image": "https://www.keywestchamber.org/uploads/1/3/8/2/138254764/2023-business-magazine-cover_orig.png",
+            "memblevel": "Silver",
+            "description": " Travelers to the Keys, there are precautions to take for visitors as well as residents"
         },
         {
-            "name": "Car World",
-            "address": "10, Anambara State Nigeria",
+            "name": "Hambersham",
+            "address": "668 U.S. 441 Business | PO Box 366 | Cornelia, GA 30531",
             "phone": "+2349-0945-1",
-            "webURL": "https://nwaxon2020.github.io/activity_direction/",
-            "image": "https://nwaxon2020.github.io/activity_direction/imageee/bmwhero.jpg",
-            "memblevel": "Silver",
-            "description": "Cars Dealer"
+            "webURL": "https://www.habershamchamber.com/",
+            "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/3932/2023/01/shopping-retail.jpg",
+            "memblevel": "Gold",
+            "description": "vital to existing businesses and promote economic development"
         }
     ]
 }
